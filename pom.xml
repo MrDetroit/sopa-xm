@@ -18,12 +18,12 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 
             <executions>
                 <execution>
-                    <id>RestAPI-positiveTestSuite</id>
+                    <id>auth.xml</id>
                     <configuration>
                         <projectFile>auth.xml</projectFile>
 
                         <outputFolder>target/surefire-reports</outputFolder>
-                        <testSuite>Positive cases</testSuite>
+                        <testSuite>auth</testSuite>
 
                         <junitReport>true</junitReport>
                         <exportwAll>true</exportwAll>
